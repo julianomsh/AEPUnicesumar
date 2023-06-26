@@ -84,8 +84,7 @@ const [data,setData] = useState([])
                 <td>
                   <Link to={`/employeeEdit/` + employee.id} className='btn btn-primary'>Editar</Link>
                   <button onClick={e => handleDelete(employee.id)} className='btn btn-danger'>Deletar </button>
-                  <button onClick={e => Aceitar()} className='btn btn-success'> Aceitar </button>
-                  <button onClick={e => Rejeitar()} className='btn btn-warning'>Rejeitar</button>
+ 
                   
                 </td>
               </td>
